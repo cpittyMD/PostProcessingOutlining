@@ -1,0 +1,1445 @@
+﻿Log file open, 11/21/17 12:20:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PPOutlining
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1303307812) SRandInit(-1303307812).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167272
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.21-17.20.48:200][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-17.20.48:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.21-17.20.48:211][  0]LogInit: Computer: DESKTOP-352940E
+[2017.11.21-17.20.48:211][  0]LogInit: User: Cameron
+[2017.11.21-17.20.48:211][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.21-17.20.48:211][  0]LogInit: High frequency timer resolution =3.320323 MHz
+[2017.11.21-17.20.48:212][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.21-17.20.48:212][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-17.20.48:212][  0]LogMemory: Process Physical Memory: 278.01 MB used, 278.01 MB peak
+[2017.11.21-17.20.48:212][  0]LogMemory: Process Virtual Memory: 278.44 MB used, 278.44 MB peak
+[2017.11.21-17.20.48:212][  0]LogMemory: Physical Memory: 4804.39 MB used,  3331.64 MB free, 8136.02 MB total
+[2017.11.21-17.20.48:212][  0]LogMemory: Virtual Memory: 672.96 MB used,  3331.64 MB free, 134217728.00 MB total
+[2017.11.21-17.20.48:329][  0]LogInit: Using OS detected language (en-US).
+[2017.11.21-17.20.48:329][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.21-17.20.48:332][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.21-17.20.48:987][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.21-17.20.48:997][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.11.21-17.20.48:997][  0]LogD3D11RHI:       3053/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.11.21-17.20.48:998][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.21-17.20.48:998][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.21-17.20.48:998][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.21-17.20.49:001][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.21-17.20.49:001][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.21-17.20.49:001][  0]LogWindows: EnumDisplayDevices:
+[2017.11.21-17.20.49:002][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:1)
+[2017.11.21-17.20.49:002][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.11.21-17.20.49:002][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.21-17.20.49:002][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.21-17.20.49:002][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.21-17.20.49:002][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.21-17.20.49:002][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.21-17.20.49:002][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.11.21-17.20.49:003][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.11.21-17.20.49:003][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.11.21-17.20.49:003][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.21-17.20.49:037][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.21-17.20.49:046][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.21-17.20.49:047][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Intermediate/Shaders/WorkingDirectory/9080/).
+[2017.11.21-17.20.49:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cameron/AppData/Local/Temp/UnrealShaderWorkingDir/6120F4324B95BC17D8CD49819C60DA37/'.
+[2017.11.21-17.20.49:047][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.21-17.20.49:895][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.21-17.20.49:931][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.21-17.20.49:968][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.21-17.20.50:004][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.21-17.20.50:040][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.21-17.20.50:076][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.21-17.20.50:112][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.21-17.20.50:148][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.21-17.20.50:179][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.21-17.20.50:214][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.21-17.20.50:249][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.21-17.20.50:285][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.21-17.20.50:321][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.21-17.20.50:356][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.21-17.20.50:392][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.21-17.20.50:463][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.21-17.20.50:463][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.21-17.20.50:489][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.21-17.20.50:559][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.21-17.20.50:581][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.21-17.20.50:616][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.21-17.20.50:652][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.21-17.20.50:687][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.21-17.20.50:723][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.21-17.20.50:723][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.21-17.20.51:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.21-17.20.51:138][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-17.20.51:139][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.21-17.20.51:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.21-17.20.51:139][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.21-17.20.51:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.21-17.20.51:139][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.21-17.20.51:158][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.21-17.20.51:169][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cameron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.21-17.20.51:179][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.21-17.20.51:180][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.21-17.20.51:180][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.21-17.20.51:180][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.21-17.20.51:424][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.11.21-17.20.51:525][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-17.20.51:806][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.21-17.20.51:832][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.21-17.20.51:832][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.21-17.20.51:832][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.21-17.20.51:832][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.21-17.20.51:832][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.21-17.20.51:833][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.21-17.20.52:227][  0]LogNetVersion: PPOutlining , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1180408051)
+[2017.11.21-17.20.52:388][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041334 seconds
+[2017.11.21-17.20.52:394][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.21-17.20.52:394][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.21-17.20.52:394][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.21-17.20.52:432][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.21-17.20.54:367][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.21-17.20.54:396][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.21-17.20.54:826][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.21-17.20.55:102][  0]SourceControl: Source control is disabled
+[2017.11.21-17.20.55:102][  0]SourceControl: Source control is disabled
+[2017.11.21-17.20.55:132][  0]SourceControl: Source control is disabled
+[2017.11.21-17.20.55:160][  0]SourceControl: Source control is disabled
+[2017.11.21-17.20.55:523][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.21-17.20.55:674][  0]LogOcInput: OculusInput pre-init called
+[2017.11.21-17.20.55:848][  0]LogEngine: Initializing Engine...
+[2017.11.21-17.20.55:849][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.21-17.20.56:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.21-17.20.56:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.21-17.20.56:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.21-17.20.56:174][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.21-17.20.56:183][  0]LogInit: FAudioDevice initialized.
+[2017.11.21-17.20.56:255][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-17.20.56:279][  0]LogInit: Texture streaming: Enabled
+[2017.11.21-17.20.56:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.21-17.20.56:486][  0]LogInit: Transaction tracking system initialized
+[2017.11.21-17.20.56:680][  0]BlueprintLog: New page: Editor Load
+[2017.11.21-17.20.57:238][  0]LocalizationService: Localization service is disabled
+[2017.11.21-17.20.57:693][  0]LogConsoleResponse: Display: 
+[2017.11.21-17.20.57:841][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.21-17.20.57:841][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.21-17.20.57:841][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.21-17.20.58:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/' took 0.01s
+[2017.11.21-17.20.58:501][  0]SourceControl: Source control is disabled
+[2017.11.21-17.20.58:501][  0]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.21-17.20.58:502][  0]LightingResults: New page: Lighting Build
+[2017.11.21-17.20.58:527][  0]MapCheck: New page: Map Check
+[2017.11.21-17.20.58:528][  0]LightingResults: New page: Lighting Build
+[2017.11.21-17.20.58:713][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.21-17.20.58:718][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.21-17.20.58:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.21-17.20.58:767][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.472ms to complete.
+[2017.11.21-17.20.58:767][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.266
+[2017.11.21-17.20.58:838][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.21-17.20.58:920][  0]LogCollectionManager: Loaded 0 collections in 0.000816 seconds
+[2017.11.21-17.20.58:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Collections/' took 0.01s
+[2017.11.21-17.20.58:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/Developers/Cameron/Collections/' took 0.01s
+[2017.11.21-17.20.58:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/Collections/' took 0.01s
+[2017.11.21-17.20.58:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.21-17.20.58:997][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2017.11.21-17.20.59:038][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.21-17.20.59:069][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.21-17.20.59:099][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.21-17.20.59:158][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.21-17.20.59:159][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.21-17.20.59:164][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.21-17.20.59:253][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.21-17.20.59:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.21-17.20.59:434][  0]LogLoad: (Engine Initialization) Total time: 12.52 seconds
+[2017.11.21-17.20.59:434][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.21-17.20.59:434][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.21-17.20.59:463][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.21-17.20.59:496][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-17.20.59:520][  1]LogAssetRegistry: Asset discovery search completed in 8.1182 seconds
+[2017.11.21-17.20.59:522][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.21-17.20.59:522][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2017.11.21-17.21.36:433][312]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-17.21.36:472][312]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.11.21-17.21.36:474][312]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.21.36:556][312]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.21.36:570][312]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.21.36:613][312]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.21-17.21.41:038][668]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.21-17.21.41:038][668]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.21.41:038][668]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.21-17.22.24:326][ 10]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.22.24:337][ 10]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.22.25:373][ 80]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.22.25:373][ 80]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.22.25:373][ 80]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.23.04:844][151]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.04:894][152]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.21-17.23.05:901][227]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.23.05:901][227]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.23.05:901][227]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.23.26:613][447]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.26:617][447]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.27:703][524]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.23.27:703][524]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.23.27:703][524]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.23.42:669][ 60]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.43:301][102]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.23.43:301][102]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.23.43:301][102]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.23.45:969][334]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.46:603][377]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.23.46:603][377]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.23.46:603][377]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.23.50:987][791]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.23.51:622][835]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.23.51:622][835]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.23.51:622][835]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.24.32:804][ 65]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.32:809][ 65]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.36:381][396]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.24.36:382][396]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.24.36:382][396]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.24.51:739][936]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.51:745][936]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.52:331][971]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.24.52:331][971]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.24.52:331][971]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.24.54:329][144]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.54:937][183]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.24.54:937][183]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.24.54:937][183]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.24.55:139][200]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.24.55:772][244]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.24.55:772][244]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.24.55:772][244]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.25.40:786][543]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.25.40:791][543]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.25.41:772][612]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.25.41:772][612]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.25.41:772][612]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.25.48:835][313]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.25.48:841][313]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.25.49:528][359]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.25.49:528][359]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.25.49:528][359]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.26.30:598][491]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.30:603][491]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.31:847][577]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.26.31:847][577]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.26.31:847][577]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.26.33:531][723]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.34:210][770]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.26.34:210][770]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.26.34:210][770]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.26.38:889][186]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.39:519][225]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.26.39:519][225]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.26.39:519][225]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.26.42:627][499]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.43:274][542]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.26.43:274][542]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.26.43:274][542]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.26.48:151][965]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.48:709][  2]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.26.49:536][ 58]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.26.49:536][ 58]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.26.49:536][ 58]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.27.18:144][769]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.27.19:124][833]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.27.19:124][833]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.27.19:124][833]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.27.21:397][ 29]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.27.22:092][ 72]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.27.22:092][ 72]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.27.22:092][ 72]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.27.40:049][613]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.27.40:649][649]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.27.40:649][649]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.27.40:649][649]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.27.42:585][804]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.27.43:244][845]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.27.43:245][845]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.27.43:245][845]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.06:249][934]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.07:287][  2]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.07:287][  2]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.07:287][  2]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.18:402][946]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.19:077][987]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.19:077][987]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.19:077][987]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.23:645][370]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.24:256][409]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.24:256][409]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.24:256][409]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.25:681][526]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.26:264][563]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.26:264][563]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.26:264][563]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.36:261][483]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.36:881][519]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.36:881][519]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.36:881][519]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.28.38:881][677]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.28.39:605][723]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.28.39:605][723]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.28.39:605][723]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.30.10:969][324]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.30.10:974][324]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.30.11:971][387]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.30.11:972][387]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.30.11:972][387]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.30.18:059][898]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.30.18:633][931]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.30.18:633][931]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.30.18:633][931]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.30.24:596][428]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.30.25:231][468]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.30.25:231][468]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.30.25:231][468]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.30.53:494][969]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-17.31.02:529][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.009
+[2017.11.21-17.31.02:531][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Maps/PPOutline] ([1] browsable assets)...
+[2017.11.21-17.31.02:545][774]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Maps/PPOutline.PPOutline]
+[2017.11.21-17.31.02:545][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/PPOutline]
+[2017.11.21-17.31.02:566][774]LogSavePackage: Save=18.87ms
+[2017.11.21-17.31.02:566][774]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_Auto10DAFC54B458C3C280D99038DF22F4C3D.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto1.uasset'
+[2017.11.21-17.31.02:567][774]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto1.uasset
+[2017.11.21-17.31.02:567][774]LogFileHelpers: Auto-saving content packages took 0.037
+[2017.11.21-17.31.05:885][ 29]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.31.06:824][ 87]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.31.06:824][ 87]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.31.06:824][ 87]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.31.09:513][310]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.31.10:128][348]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.31.10:129][348]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.31.10:129][348]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.31.19:600][140]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.31.20:234][179]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.31.20:234][179]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.31.20:234][179]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.31.22:252][346]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.31.22:872][385]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.31.22:872][385]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.31.22:872][385]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.31.51:075][ 55]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.31.52:260][129]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.31.52:260][129]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.31.52:260][129]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.08:297][515]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.08:302][515]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.08:909][551]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.32.08:909][551]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.32.08:909][551]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.26:802][220]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.27:365][252]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.32.27:365][252]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.32.27:365][252]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.30:852][552]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.31:224][571]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.32:054][621]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.32.32:054][621]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.32.32:054][621]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.32:127][625]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.32:758][661]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.32.32:758][661]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.32.32:758][661]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.54:575][555]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.32.55:565][616]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.32.55:565][616]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.32.55:565][616]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.32.59:780][947]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.00:355][982]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.00:355][982]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.00:355][982]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.02:931][185]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.03:600][225]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.03:600][225]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.03:600][225]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.06:437][445]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.07:021][480]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.07:021][480]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.07:021][480]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.42:302][542]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.43:307][604]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.43:307][604]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.43:307][604]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.50:158][138]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.50:775][174]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.50:776][174]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.50:776][174]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.53:923][415]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.54:563][453]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.54:563][453]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.54:563][453]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.33.56:383][592]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.33.57:025][630]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.33.57:026][630]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.33.57:026][630]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.52.28:758][ 14]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.29:673][ 69]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.52.29:673][ 69]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.52.29:673][ 69]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.52.33:933][423]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.34:609][464]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.52.34:609][464]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.52.34:609][464]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.52.45:262][344]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.45:785][370]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.46:375][402]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.52.46:375][402]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.52.46:375][402]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.52.51:743][835]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.52:293][863]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.52.52:294][863]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.52.52:294][863]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.52.55:063][ 78]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.52.55:616][105]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.52.55:616][105]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.52.55:616][105]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.53.15:685][720]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.53.16:645][777]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.53.16:645][777]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.53.16:645][777]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.53.17:999][880]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.53.18:625][915]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.53.18:625][915]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.53.18:625][915]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.53.23:836][311]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.53.24:443][344]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.53.24:443][344]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.53.24:443][344]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.53.26:165][472]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.53.26:792][506]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.53.26:792][506]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.53.26:792][506]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.53.41:892][674]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.53.42:402][699]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.53.42:402][699]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.53.42:402][699]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.54.18:664][529]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.54.18:942][542]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.54.19:273][556]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.54.19:703][577]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.54.20:653][624]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.54.20:653][624]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.54.20:653][624]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.54.24:788][927]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.54.25:353][953]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.54.25:353][953]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.54.25:353][953]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.00:137][530]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.01:022][580]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.01:022][580]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.01:022][580]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.02:843][711]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.03:472][744]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.03:472][744]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.03:472][744]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.05:897][909]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.06:510][941]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.06:510][941]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.06:510][941]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.09:455][143]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.10:019][172]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.10:019][172]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.10:019][172]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.11:813][295]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.12:407][326]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.12:407][326]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.12:407][326]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.14:954][504]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.15:512][533]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.15:512][533]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.15:512][533]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.17:956][699]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.18:540][729]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.18:540][729]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.18:540][729]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.24:579][152]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.25:182][184]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.25:182][184]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.25:182][184]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.57:722][730]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.55.58:646][784]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.55.58:646][784]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.55.58:646][784]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.55.59:517][852]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.00:003][876]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.00:711][915]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.00:711][915]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.00:711][915]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.56.33:047][532]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.34:993][659]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.35:632][695]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.35:632][695]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.35:632][695]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.56.37:203][813]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.37:774][844]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.37:774][844]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.37:774][844]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.56.39:308][958]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.39:910][991]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.39:910][991]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.39:910][991]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.56.41:482][107]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.42:065][139]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.42:065][139]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.42:065][139]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.56.43:581][252]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.56.44:177][285]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.56.44:177][285]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.56.44:177][285]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.57.35:305][584]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.57.36:198][636]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.57.36:198][636]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.57.36:198][636]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.57.39:972][927]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.57.40:674][969]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.57.40:674][969]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.57.40:674][969]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.57.44:958][308]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.57.45:472][334]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.57.45:472][334]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.57.45:472][334]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.57.48:621][572]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.57.49:200][605]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.57.49:200][605]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.57.49:200][605]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.58.57:433][591]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.58.58:429][651]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.58.58:429][651]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.58.58:429][651]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.59.00:766][834]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.00:772][834]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.01:293][859]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.59.01:293][859]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.59.01:293][859]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.59.43:925][439]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.43:930][439]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.44:815][489]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.59.44:815][489]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.59.44:815][489]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.59.54:580][292]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.55:127][320]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.59.55:127][320]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.59.55:127][320]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-17.59.57:452][494]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-17.59.58:043][529]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-17.59.58:043][529]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-17.59.58:043][529]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.00.01:009][747]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.00.01:751][789]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.00.01:751][789]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.00.01:751][789]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.00.17:720][128]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.00.17:725][128]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.00.18:261][155]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.00.18:261][155]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.00.18:261][155]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.00.20:101][290]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.00.20:706][325]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.00.20:706][325]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.00.20:706][325]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.00.40:929][ 29]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.00.41:810][ 79]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.00.41:810][ 79]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.00.41:810][ 79]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.01.00:439][662]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.01.01:013][695]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.01.01:013][695]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.01.01:013][695]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.01.34:750][648]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.01.35:790][706]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.01.35:791][706]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.01.35:791][706]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.01.55:195][354]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.01.55:766][382]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.01.55:766][382]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.01.55:766][382]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.01.57:636][518]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.01.58:206][550]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.01.58:206][550]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.01.58:206][550]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.02.17:023][140]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.02.17:629][174]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.02.17:629][174]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.02.17:629][174]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.02.27:924][968]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.02.28:434][992]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.02.28:434][992]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.02.28:434][992]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.02.42:329][102]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.02.42:936][135]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.02.42:937][135]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.02.42:937][135]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.02.45:094][294]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.02.45:680][326]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.02.45:680][326]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.02.45:680][326]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.03.12:503][418]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.12:509][418]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.13:351][463]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.03.13:352][463]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.03.13:352][463]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.03.15:196][593]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.15:808][626]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.03.15:808][626]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.03.15:808][626]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.03.18:012][781]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.18:596][813]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.03.18:596][813]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.03.18:597][813]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.03.42:126][726]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.42:131][726]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.03.43:014][773]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.03.43:015][773]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.03.43:015][773]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.04.13:943][167]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.04.14:787][212]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.04.14:788][212]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.04.14:788][212]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.04.16:362][327]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.04.16:928][357]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.04.16:928][357]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.04.16:928][357]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.04.35:579][864]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.04.36:143][894]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.04.36:143][894]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.04.36:143][894]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.05.20:606][393]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.05.21:492][443]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.05.21:492][443]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.05.21:492][443]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.05.22:545][521]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.05.23:095][548]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.05.23:095][548]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.05.23:095][548]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.05.24:799][671]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.05.25:378][703]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.05.25:378][703]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.05.25:378][703]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.05.41:105][913]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.05.41:682][945]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.05.41:682][945]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.05.41:682][945]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.05.54:135][980]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.05.54:622][  1]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.05.54:622][  1]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.05.54:622][  1]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.06.10:062][200]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.06.10:658][232]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.06.10:658][232]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.06.10:658][232]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.06.12:900][398]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.06.13:471][428]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.06.13:471][428]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.06.13:471][428]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.06.23:720][208]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.06.24:318][239]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.06.24:318][239]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.06.24:318][239]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.06.53:259][424]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.06.54:300][481]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.06.54:300][481]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.06.54:300][481]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.07.09:037][508]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.07.09:613][540]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.07.09:613][540]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.07.09:613][540]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.08.33:689][971]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.08.34:578][ 26]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.08.34:578][ 26]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.08.34:578][ 26]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.08.39:172][429]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.08.39:785][467]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.08.39:785][467]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.08.39:785][467]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.09.35:464][445]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.09.36:283][485]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.09.36:283][485]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.09.36:283][485]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.09.48:346][430]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.09.49:098][478]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.09.49:098][478]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.09.49:098][478]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.09.55:637][ 21]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.09.55:642][ 21]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.09.56:173][ 49]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.09.56:174][ 49]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.09.56:174][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.09.57:892][190]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.09.58:511][228]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.09.58:511][228]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.09.58:511][228]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.06:615][913]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.07:130][941]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.07:130][941]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.07:130][941]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.17:731][943]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.18:360][984]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.18:360][984]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.18:360][984]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.19:078][ 44]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.19:615][ 74]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.19:615][ 74]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.19:615][ 74]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.21:583][244]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.23:742][425]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.23:742][425]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.23:742][425]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.38:181][767]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.38:832][805]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.39:369][834]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.39:369][834]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.39:370][834]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.41:303][997]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.10.41:982][ 40]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.10.41:982][ 40]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.10.41:982][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.10.59:529][625]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.11.00:144][665]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.11.00:144][665]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.11.00:144][665]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.11.16:297][ 43]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.11.16:907][ 82]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.11.16:907][ 82]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.11.16:907][ 82]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.11.49:233][985]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.11.50:220][ 52]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.11.50:220][ 52]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.11.50:220][ 52]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.14:924][297]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.16:036][366]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.16:773][409]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.16:773][409]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.16:773][409]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.18:476][552]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.19:115][592]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.19:115][592]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.19:115][592]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.20:633][719]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.23:054][922]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.23:054][922]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.23:054][922]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.48:374][204]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.49:290][257]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.49:290][257]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.49:290][257]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.52:748][534]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.53:351][570]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.53:351][570]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.53:351][570]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.12.57:957][946]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.12.58:608][986]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.12.58:608][986]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.12.58:608][986]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.13.21:485][996]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.13.21:489][996]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.13.22:407][ 49]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.13.22:407][ 49]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.13.22:407][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.13.57:642][ 87]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.13.58:573][142]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.13.58:573][142]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.13.58:573][142]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.14.10:303][108]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.14.10:962][147]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.14.10:962][147]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.14.10:962][147]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.14.12:180][241]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.14.12:808][278]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.14.12:808][278]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.14.12:808][278]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.14.29:523][589]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.14.30:016][611]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.14.30:017][611]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.14.30:017][611]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.14.36:468][108]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.14.37:069][140]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.14.37:069][140]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.14.37:069][140]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.14.50:256][184]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.14.50:873][218]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.14.50:873][218]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.14.50:873][218]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.15.17:616][376]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.15.18:627][437]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.15.18:627][437]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.15.18:627][437]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.16.32:180][443]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.16.32:187][443]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.16.33:160][500]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.16.33:160][500]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.16.33:160][500]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.16.43:061][337]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.16.43:571][363]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.16.43:571][363]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.16.43:571][363]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.16.47:615][695]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.16.48:259][735]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.16.48:259][735]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.16.48:259][735]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.01:057][905]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.01:696][944]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.01:696][944]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.01:696][944]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.05:017][217]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.05:642][255]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.05:642][255]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.05:642][255]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.18:707][416]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.18:713][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.21-18.17.19:329][449]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.19:329][449]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.19:329][449]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.34:711][781]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.34:715][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.17.34:727][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.17.34:764][781]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.36:257][862]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.36:257][862]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.36:257][862]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.40:972][235]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.40:983][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.17.41:879][286]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.41:879][286]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.41:879][286]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.17.55:112][405]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.17.55:119][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.17.55:849][446]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.17.55:849][446]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.17.55:849][446]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.18.21:566][722]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.18.22:538][778]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.18.22:538][778]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.18.22:538][778]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.18.32:038][564]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.18.32:670][601]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.18.32:670][601]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.18.32:670][601]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.18.50:926][134]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.18.50:931][134]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.18.51:474][161]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.18.51:474][161]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.18.51:474][161]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.18.53:009][278]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.18.53:659][317]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.18.53:659][317]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.18.53:659][317]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.19.19:236][548]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.19.20:162][601]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.19.20:162][601]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.19.20:162][601]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.19.36:105][977]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.19.36:680][ 11]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.19.36:680][ 11]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.19.36:680][ 11]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.19.37:562][ 81]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.19.37:566][ 81]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-18.19.38:259][117]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.19.38:259][117]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.19.38:259][117]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.19.41:295][347]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.19.41:307][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-18.19.42:183][397]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.19.42:183][397]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.19.42:183][397]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.19.58:822][828]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.19.58:829][828]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-18.20.01:084][975]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.20.01:093][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-18.20.02:177][ 34]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.20.02:177][ 34]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.20.02:177][ 34]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.20.02:703][ 70]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.20.02:713][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-18.20.03:702][128]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.20.03:702][128]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.20.03:702][128]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.20.41:767][399]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.20.42:631][443]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.20.42:631][443]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.20.42:631][443]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.20.49:479][930]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.20.50:025][959]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.20.50:025][959]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.20.50:025][959]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.20.54:372][277]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.20.54:962][310]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.20.54:962][310]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.20.54:962][310]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.21.15:811][ 43]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.21.16:790][100]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.21-18.21.16:790][100]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.21.16:790][100]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.21-18.21.32:711][376]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.21.33:640][424]MaterialEditorStats: Base pass shader without light map: 104 instructions
+[2017.11.21-18.21.33:640][424]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.21.33:640][424]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.21.52:624][875]LogMaterialEditor: Applying material PPOutline
+[2017.11.21-18.21.53:076][875]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.21.53:127][875]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.21.53:140][875]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.21.53:162][875]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.22.22:654][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.011
+[2017.11.21-18.22.22:656][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Maps/PPOutline] ([1] browsable assets)...
+[2017.11.21-18.22.22:674][ 39]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Maps/PPOutline.PPOutline]
+[2017.11.21-18.22.22:674][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/PPOutline]
+[2017.11.21-18.22.22:711][ 39]LogSavePackage: Save=34.50ms
+[2017.11.21-18.22.22:711][ 39]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_Auto22BACF4624D29AC229F2DC388CDAAD656.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto2.uasset'
+[2017.11.21-18.22.22:712][ 39]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto2.uasset
+[2017.11.21-18.22.22:712][ 39]LogFileHelpers: Auto-saving content packages took 0.057
+[2017.11.21-18.24.34:237][991]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-18.24.34:335][991]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-18.24.34:341][991]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-18.24.34:376][991]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.24.36:685][126]MaterialEditorStats: Base pass shader without light map: 104 instructions
+[2017.11.21-18.24.36:685][126]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.24.36:685][126]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.24.40:696][412]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-18.24.41:465][449]MaterialEditorStats: Base pass shader without light map: 103 instructions
+[2017.11.21-18.24.41:465][449]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.24.41:465][449]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.24.44:868][660]LogMaterialEditor: Applying material PPOutline
+[2017.11.21-18.24.45:322][660]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-18.24.45:352][660]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.24.45:366][660]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.24.45:387][660]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.25.41:505][914]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.11.21-18.25.42:805][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.21-18.25.43:551][128]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2017.11.21-18.25.56:862][536]Cmd: DELETE
+[2017.11.21-18.25.56:862][536]Cmd: ACTOR DELETE
+[2017.11.21-18.25.56:909][536]LogEditorActor: Deleted Actor: Character
+[2017.11.21-18.25.56:927][536]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.21-18.26.01:854][ 92]LogActorFactory: Actor Factory created Cylinder
+[2017.11.21-18.26.03:171][237]LogActorFactory: Actor Factory created Cylinder
+[2017.11.21-18.26.19:099][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.21-18.26.20:220][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.11.21-18.26.23:816][488]LogActorFactory: Actor Factory created Cone
+[2017.11.21-18.26.24:790][588]LogActorFactory: Actor Factory created Cone
+[2017.11.21-18.26.43:131][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.26.48:050][123]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.26.54:443][824]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.21-18.26.55:764][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.26.55:764][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.21-18.26.55:789][824]PIE: New page: PIE session: Minimal_Default (Nov 21, 2017, 8:26:55 AM)
+[2017.11.21-18.26.55:789][824]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.11.21-18.26.55:791][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002125s)
+[2017.11.21-18.26.55:792][824]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.21-18.26.55:792][824]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.11.21-18.26.55:792][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003080s)
+[2017.11.21-18.26.55:807][824]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.21-18.26.55:813][824]LogInit: FAudioDevice initialized.
+[2017.11.21-18.26.55:869][824]LogLoad: Game class is 'GameModeBase'
+[2017.11.21-18.26.55:883][824]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.11.21-13.26.55
+[2017.11.21-18.26.55:900][824]LogWorld: Bringing up level for play took: 0.017585
+[2017.11.21-18.26.55:968][824]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.21-18.26.55:969][824]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.114
+[2017.11.21-18.26.55:970][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.27.40:508][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.27.40:550][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.27.56:518][674]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.27.56:610][674]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.27.56:619][674]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.27.56:650][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.27.58:765][789]MaterialEditorStats: Base pass shader without light map: 103 instructions
+[2017.11.21-18.27.58:765][789]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.27.58:765][789]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.28.11:700][793]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.28.12:540][840]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.28.12:540][840]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.28.12:540][840]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.28.25:947][915]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.28.26:770][961]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.28.26:770][961]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.28.26:770][961]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.28.38:624][936]LogMaterialEditor: Applying material PPOutline
+[2017.11.21-18.28.39:079][936]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-18.28.39:118][936]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.28.39:134][936]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.28.39:149][936]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.28.42:413][125]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.28.42:413][125]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.28.42:413][125]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.21-18.28.51:174][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.11.21-18.28.51:980][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.21-18.28.52:760][257]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.29.36:389][247]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.32.02:785][660]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.02:884][660]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.02:890][660]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.02:928][660]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.32.05:182][780]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.32.05:182][780]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.32.05:182][780]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.32.13:348][341]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.13:370][341]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.14:831][417]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.32.14:831][417]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.32.14:831][417]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.32.15:418][454]LogMaterialEditor: Applying material PPOutline
+[2017.11.21-18.32.15:874][454]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.21-18.32.15:919][454]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.32.15:934][454]LogMaterial: Missing cached shader map for material PPOutline, compiling. 
+[2017.11.21-18.32.15:955][454]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.33.08:812][505]LogSavePackage: Save=35.57ms
+[2017.11.21-18.33.08:812][505]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Minimal_Default_Auto323B42A2B43302100062F73B92AAB2EB9.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.11.21-18.33.08:813][505]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.11.21-18.33.08:815][505]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.055
+[2017.11.21-18.33.08:815][505]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.055
+[2017.11.21-18.33.08:816][505]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Maps/PPOutline] ([1] browsable assets)...
+[2017.11.21-18.33.08:827][505]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Maps/PPOutline.PPOutline]
+[2017.11.21-18.33.08:829][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/PPOutline]
+[2017.11.21-18.33.08:862][505]LogSavePackage: Save=32.14ms
+[2017.11.21-18.33.08:863][505]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_Auto33920EB30439286B57B4D1E8F76A2E021.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto3.uasset'
+[2017.11.21-18.33.08:863][505]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Auto3.uasset
+[2017.11.21-18.33.08:864][505]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Maps/PPOutline_Inst] ([1] browsable assets)...
+[2017.11.21-18.33.08:875][505]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/StarterContent/Maps/PPOutline_Inst.PPOutline_Inst]
+[2017.11.21-18.33.08:875][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/PPOutline_Inst]
+[2017.11.21-18.33.08:890][505]LogSavePackage: Save=12.94ms
+[2017.11.21-18.33.08:890][505]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_Inst_Auto3BC85E1934954CBC0745E679BFC2F4FA6.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Inst_Auto3.uasset'
+[2017.11.21-18.33.08:891][505]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOutline_Inst_Auto3.uasset
+[2017.11.21-18.33.08:891][505]LogFileHelpers: Auto-saving content packages took 0.075
+[2017.11.21-18.34.45:167][992]LogRenderer: Reallocating scene render targets to support 1392x924 Format 10 NumSamples 1 (Frame:1).
+[2017.11.21-18.35.21:863][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/PPOutline_Inst" FILE="C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset" SILENT=true
+[2017.11.21-18.35.21:876][153]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.35.21:901][153]LogSavePackage: Save=15.67ms
+[2017.11.21-18.35.21:901][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_InstA252398E433485F69172F4B2C0CBD101.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset'
+[2017.11.21-18.35.21:906][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset
+[2017.11.21-18.37.53:398][288]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.11.21-18.37.53:489][288]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.11.21-18.37.53:494][288]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.11.21-18.37.53:529][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-18.37.55:704][393]MaterialEditorStats: Base pass shader without light map: 101 instructions
+[2017.11.21-18.37.55:704][393]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.21-18.37.55:704][393]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.21-18.39.21:652][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.39.34:465][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.39.35:639][125]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.21-18.39.35:653][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.39.35:654][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.21-18.39.35:654][125]PIE: New page: PIE session: Minimal_Default (Nov 21, 2017, 8:39:35 AM)
+[2017.11.21-18.39.35:654][125]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.11.21-18.39.35:656][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002078s)
+[2017.11.21-18.39.35:656][125]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.21-18.39.35:657][125]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.11.21-18.39.35:657][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003103s)
+[2017.11.21-18.39.35:677][125]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.21-18.39.35:683][125]LogInit: FAudioDevice initialized.
+[2017.11.21-18.39.35:711][125]LogLoad: Game class is 'GameModeBase'
+[2017.11.21-18.39.35:712][125]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.11.21-13.39.35
+[2017.11.21-18.39.35:712][125]LogWorld: Bringing up level for play took: 0.001096
+[2017.11.21-18.39.35:714][125]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.142
+[2017.11.21-18.39.35:714][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.39.47:067][207]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.21-18.39.54:173][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.39.54:214][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.11.21-18.40.05:036][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.21-18.42.46:381][842]LogSavePackage: Save=35.58ms
+[2017.11.21-18.42.46:382][842]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Minimal_Default6FBF7E104C31B5EBBB79B5981750787F.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.21-18.42.46:387][842]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.11.21-18.42.46:416][842]LogFileHelpers: Saving map 'Minimal_Default' took 0.137
+[2017.11.21-18.42.46:440][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/PPOutline" FILE="C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline.uasset" SILENT=true
+[2017.11.21-18.42.46:478][842]LogSavePackage: Save=35.35ms
+[2017.11.21-18.42.46:478][842]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline31B8F60B433FC2967599468B63530707.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline.uasset'
+[2017.11.21-18.42.46:483][842]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline.uasset
+[2017.11.21-18.42.46:503][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/PPOutline_Inst" FILE="C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset" SILENT=true
+[2017.11.21-18.42.46:527][842]LogSavePackage: Save=13.15ms
+[2017.11.21-18.42.46:527][842]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/PPOutline_InstD731FEF04F21591C6F56EFA5E334D699.tmp' to 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset'
+[2017.11.21-18.42.46:530][842]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/StarterContent/Maps/PPOutline_Inst.uasset
+[2017.11.21-18.42.48:951][ 54]Cmd: QUIT_EDITOR
+[2017.11.21-18.42.49:873][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.21-18.42.49:882][ 54]LogExit: Preparing to exit.
+[2017.11.21-18.42.50:905][ 54]LogExit: Editor shut down
+[2017.11.21-18.42.50:910][ 54]LogExit: Transaction tracking system shut down
+[2017.11.21-18.42.51:056][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.21-18.42.51:056][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/' was aborted.
+[2017.11.21-18.42.51:057][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.21-18.42.51:057][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.21-18.42.51:057][ 54]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.21-18.42.51:104][ 54]LogExit: Object subsystem successfully closed.
+[2017.11.21-18.42.51:115][ 54]LogD3D11RHI: Shutdown
+[2017.11.21-18.42.51:116][ 54]LogD3D11RHI: CleanupD3DDevice
+[2017.11.21-18.42.51:209][ 54]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.21-18.42.51:215][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.21-18.42.51:215][ 54]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.11.21-18.42.51:215][ 54]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.21-18.42.51:215][ 54]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.21-18.42.51:215][ 54]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.21-18.42.51:215][ 54]LogDirectoryWatcher: A directory notification for 'D:/Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.21-18.42.51:217][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/Collections/' was aborted.
+[2017.11.21-18.42.51:217][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Content/Developers/Cameron/Collections/' was aborted.
+[2017.11.21-18.42.51:217][ 54]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PPOutlining/pp/PPOutlining/Saved/Collections/' was aborted.
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.21-18.42.51:217][ 54]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.21-18.42.51:218][ 54]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.21-18.42.51:949][ 54]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.21-18.42.52:011][ 54]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.21-18.42.52:012][ 54]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.21-18.42.52:134][ 54]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.21-18.42.52:135][ 54]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.21-18.42.52:136][ 54]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.21-18.42.52:237][ 54]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.21-18.42.52:337][ 54]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.21-18.42.52:338][ 54]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.21-18.42.52:338][ 54]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.21-18.42.52:338][ 54]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.21-18.42.52:338][ 54]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.21-18.42.52:339][ 54]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.21-18.42.52:341][ 54]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.21-18.42.52:419][ 54]LogDerivedDataCache: Shutdown
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.21-18.42.52:419][ 54]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.21-18.42.52:420][ 54]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.21-18.42.52:420][ 54]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.21-18.42.52:420][ 54]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.21-18.42.52:420][ 54]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A4BE86B-4015-49A5-3AC9-B5A5ABF8EFA8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=1a9fbdf547acc15498f53c9d52a86bdd%7Cd697d50e1bb4459db0bde9f23d712b49%7C1c18de53-6320-4932-a354-522ac18064de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.21-18.42.52:452][ 54]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.21-18.42.52:454][ 54]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.21-18.42.52:455][ 54]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.21-18.42.52:458][ 54]LogExit: Exiting.
+[2017.11.21-18.42.52:468][ 54]Log file closed, 11/21/17 13:42:52
