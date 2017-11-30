@@ -1,4 +1,4 @@
-﻿Log file open, 11/30/17 00:28:58
+﻿Log file open, 11/30/17 11:45:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PPOutlining
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-783044438) SRandInit(-783044437).
+LogInit: Display: RandInit(888848166) SRandInit(888848168).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.163349
+LogStats: Stats thread started at 0.180053
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,698 +113,617 @@ LogInit: Base directory: D:/Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.30-05.28.58:854][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.30-05.28.58:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.30-05.28.58:872][  0]LogInit: Computer: DESKTOP-352940E
-[2017.11.30-05.28.58:872][  0]LogInit: User: Cameron
-[2017.11.30-05.28.58:872][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.30-05.28.58:872][  0]LogInit: High frequency timer resolution =3.320323 MHz
-[2017.11.30-05.28.58:872][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.11.30-05.28.58:872][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.30-05.28.58:872][  0]LogMemory: Process Physical Memory: 276.32 MB used, 276.32 MB peak
-[2017.11.30-05.28.58:872][  0]LogMemory: Process Virtual Memory: 274.34 MB used, 274.34 MB peak
-[2017.11.30-05.28.58:872][  0]LogMemory: Physical Memory: 6937.04 MB used,  1198.99 MB free, 8136.02 MB total
-[2017.11.30-05.28.58:872][  0]LogMemory: Virtual Memory: 668.83 MB used,  1198.99 MB free, 134217728.00 MB total
-[2017.11.30-05.28.58:983][  0]LogInit: Using OS detected language (en-US).
-[2017.11.30-05.28.58:983][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.30-05.28.58:985][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.30-05.28.59:643][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.30-05.28.59:667][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
-[2017.11.30-05.28.59:667][  0]LogD3D11RHI:       3053/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.11.30-05.28.59:668][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.30-05.28.59:668][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.30-05.28.59:668][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.30-05.28.59:671][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.30-05.28.59:671][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.30-05.28.59:671][  0]LogWindows: EnumDisplayDevices:
-[2017.11.30-05.28.59:671][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:1)
-[2017.11.30-05.28.59:672][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
-[2017.11.30-05.28.59:672][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.11.30-05.28.59:672][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.11.30-05.28.59:672][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.11.30-05.28.59:672][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.11.30-05.28.59:672][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.11.30-05.28.59:672][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
-[2017.11.30-05.28.59:672][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
-[2017.11.30-05.28.59:672][  0]LogD3D11RHI:      Driver Date: 4-24-2017
-[2017.11.30-05.28.59:672][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.30-05.28.59:712][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.30-05.28.59:722][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.11.30-05.28.59:722][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Intermediate/Shaders/WorkingDirectory/8216/).
-[2017.11.30-05.28.59:723][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cameron/AppData/Local/Temp/UnrealShaderWorkingDir/8636711F4609FDB4E2E1C79862691581/'.
-[2017.11.30-05.28.59:723][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.30-05.29.00:559][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.30-05.29.00:597][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.30-05.29.00:633][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.30-05.29.00:669][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.30-05.29.00:705][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.30-05.29.00:741][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.30-05.29.00:778][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.30-05.29.00:814][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.30-05.29.00:844][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.30-05.29.00:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.30-05.29.00:915][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.30-05.29.00:950][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.30-05.29.00:985][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.30-05.29.01:020][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.30-05.29.01:055][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.30-05.29.01:125][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.30-05.29.01:125][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.30-05.29.01:151][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.30-05.29.01:220][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.30-05.29.01:242][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.30-05.29.01:278][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.30-05.29.01:313][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.30-05.29.01:351][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.30-05.29.01:387][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.30-05.29.01:387][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.30-05.29.01:775][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.30-05.29.01:890][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.30-05.29.01:890][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.30-05.29.01:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.30-05.29.01:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.30-05.29.01:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.30-05.29.01:891][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.30-05.29.01:909][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.30-05.29.01:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cameron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.30-05.29.01:931][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.30-05.29.01:931][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.30-05.29.01:931][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.30-05.29.01:931][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.30-05.29.02:177][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2017.11.30-05.29.02:283][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.30-05.29.02:566][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.30-05.29.02:592][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.30-05.29.02:592][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.30-05.29.02:592][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.30-05.29.02:592][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.30-05.29.02:592][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.30-05.29.02:613][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.30-05.29.02:995][  0]LogNetVersion: PPOutlining , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1180408051)
-[2017.11.30-05.29.03:162][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.046636 seconds
-[2017.11.30-05.29.03:168][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
-[2017.11.30-05.29.03:168][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
-[2017.11.30-05.29.03:168][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.30-05.29.03:205][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.30-05.29.05:182][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.30-05.29.05:211][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.30-05.29.05:646][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.30-05.29.05:925][  0]SourceControl: Source control is disabled
-[2017.11.30-05.29.05:925][  0]SourceControl: Source control is disabled
-[2017.11.30-05.29.05:955][  0]SourceControl: Source control is disabled
-[2017.11.30-05.29.05:984][  0]SourceControl: Source control is disabled
-[2017.11.30-05.29.06:360][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.30-05.29.06:515][  0]LogOcInput: OculusInput pre-init called
-[2017.11.30-05.29.06:692][  0]LogEngine: Initializing Engine...
-[2017.11.30-05.29.06:694][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.30-05.29.06:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.30-05.29.06:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.30-05.29.07:013][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.30-05.29.07:021][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.30-05.29.07:030][  0]LogInit: FAudioDevice initialized.
-[2017.11.30-05.29.07:102][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.30-05.29.07:117][  0]LogInit: Texture streaming: Enabled
-[2017.11.30-05.29.07:190][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.30-05.29.07:365][  0]LogInit: Transaction tracking system initialized
-[2017.11.30-05.29.07:574][  0]BlueprintLog: New page: Editor Load
-[2017.11.30-05.29.08:195][  0]LocalizationService: Localization service is disabled
-[2017.11.30-05.29.08:667][  0]LogConsoleResponse: Display: 
-[2017.11.30-05.29.08:830][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.30-05.29.08:830][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.30-05.29.08:830][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.30-05.29.09:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/' took 0.01s
-[2017.11.30-05.29.09:527][  0]SourceControl: Source control is disabled
-[2017.11.30-05.29.09:527][  0]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-05.29.09:528][  0]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.09:558][  0]MapCheck: New page: Map Check
-[2017.11.30-05.29.09:558][  0]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.10:137][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.11.30-05.29.10:143][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-05.29.10:157][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-05.29.10:200][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.863ms to complete.
-[2017.11.30-05.29.10:200][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.673
-[2017.11.30-05.29.10:269][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.30-05.29.10:352][  0]LogCollectionManager: Loaded 0 collections in 0.000838 seconds
-[2017.11.30-05.29.10:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Collections/' took 0.01s
-[2017.11.30-05.29.10:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Developers/Cameron/Collections/' took 0.01s
-[2017.11.30-05.29.10:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Collections/' took 0.01s
-[2017.11.30-05.29.10:422][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.30-05.29.10:431][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2386 classes and 500 folders.
-[2017.11.30-05.29.10:473][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.11.30-05.29.10:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2017.11.30-05.29.10:551][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.11.30-05.29.10:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.11.30-05.29.10:677][  0]LogLoad: (Engine Initialization) Total time: 13.10 seconds
-[2017.11.30-05.29.10:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.30-05.29.10:677][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.30-05.29.10:706][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.30-05.29.10:707][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.30-05.29.10:709][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.30-05.29.10:713][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.30-05.29.10:816][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.30-05.29.10:871][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2017.11.30-05.29.10:896][  1]LogAssetRegistry: Asset discovery search completed in 8.7401 seconds
-[2017.11.30-05.29.10:898][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.30-05.29.10:899][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
-[2017.11.30-05.29.12:912][193]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:195).
-[2017.11.30-05.29.15:420][484]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.30-05.29.16:241][484]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.30-05.29.17:558][484]LogAIModule: Creating AISystem for world StarterMap
-[2017.11.30-05.29.17:617][484]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-05.29.17:617][484]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.17:618][484]LoadErrors: New page: Loading map: StarterMap.umap
-[2017.11.30-05.29.17:619][484]MapCheck: New page: Map Check
-[2017.11.30-05.29.17:619][484]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.17:707][484]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-05.29.17:742][484]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-05.29.17:811][484]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.664ms to complete.
-[2017.11.30-05.29.17:812][484]LogFileHelpers: Loading map 'StarterMap' took 0.196
-[2017.11.30-05.29.18:643][535]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.11.30-05.29.18:664][535]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-05.29.18:664][535]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.18:664][535]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2017.11.30-05.29.18:666][535]MapCheck: New page: Map Check
-[2017.11.30-05.29.18:667][535]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.18:747][535]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-05.29.18:781][535]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-05.29.18:850][535]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.538ms to complete.
-[2017.11.30-05.29.18:850][535]LogFileHelpers: Loading map 'Minimal_Default' took 0.188
-[2017.11.30-05.29.20:455][624]LogAIModule: Creating AISystem for world Advanced_Lighting
-[2017.11.30-05.29.20:474][624]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-05.29.20:474][624]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.20:474][624]LoadErrors: New page: Loading map: Advanced_Lighting.umap
-[2017.11.30-05.29.20:475][624]MapCheck: New page: Map Check
-[2017.11.30-05.29.20:475][624]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.20:568][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-05.29.20:600][624]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-05.29.20:671][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.312ms to complete.
-[2017.11.30-05.29.20:672][624]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.199
-[2017.11.30-05.29.23:722][976]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.11.30-05.29.23:737][976]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.30-05.29.23:738][976]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.23:738][976]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2017.11.30-05.29.23:739][976]MapCheck: New page: Map Check
-[2017.11.30-05.29.23:739][976]LightingResults: New page: Lighting Build
-[2017.11.30-05.29.23:845][976]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.30-05.29.23:881][976]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.30-05.29.23:950][976]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.435ms to complete.
-[2017.11.30-05.29.23:951][976]LogFileHelpers: Loading map 'Minimal_Default' took 0.215
-[2017.11.30-05.29.24:959][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.11.30-05.29.25:962][203]Cmd: DELETE
-[2017.11.30-05.29.25:962][203]Cmd: ACTOR DELETE
-[2017.11.30-05.29.25:964][203]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.25:976][203]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.11.30-05.29.26:387][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2017.11.30-05.29.26:553][265]Cmd: DELETE
-[2017.11.30-05.29.26:553][265]Cmd: ACTOR DELETE
-[2017.11.30-05.29.26:553][265]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.26:563][265]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.11.30-05.29.27:437][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
-[2017.11.30-05.29.27:971][427]Cmd: DELETE
-[2017.11.30-05.29.27:971][427]Cmd: ACTOR DELETE
-[2017.11.30-05.29.27:972][427]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.27:982][427]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.30-05.29.28:272][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2017.11.30-05.29.28:402][470]Cmd: DELETE
-[2017.11.30-05.29.28:402][470]Cmd: ACTOR DELETE
-[2017.11.30-05.29.28:402][470]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.28:412][470]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.11.30-05.29.28:728][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.30-05.29.28:806][510]Cmd: DELETE
-[2017.11.30-05.29.28:806][510]Cmd: ACTOR DELETE
-[2017.11.30-05.29.28:807][510]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.28:817][510]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.30-05.29.29:401][579]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
-[2017.11.30-05.29.29:464][581]Cmd: DELETE
-[2017.11.30-05.29.29:464][581]Cmd: ACTOR DELETE
-[2017.11.30-05.29.29:465][581]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2017.11.30-05.29.29:475][581]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.11.30-05.29.30:499][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.30-05.29.30:590][706]Cmd: DELETE
-[2017.11.30-05.29.30:590][706]Cmd: ACTOR DELETE
-[2017.11.30-05.29.30:590][706]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.30-05.29.30:601][706]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.30-05.29.31:932][864]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2017.11.30-05.29.32:065][874]Cmd: DELETE
-[2017.11.30-05.29.32:065][874]Cmd: ACTOR DELETE
-[2017.11.30-05.29.34:366][874]LogEditorActor: Deleted Actor: DirectionalLight
-[2017.11.30-05.29.34:378][874]LogEditorActor: Deleted 1 Actors (2.314 secs)
-[2017.11.30-05.29.35:041][953]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
-[2017.11.30-05.29.35:090][954]Cmd: DELETE
-[2017.11.30-05.29.35:090][954]Cmd: ACTOR DELETE
-[2017.11.30-05.29.35:091][954]LogEditorActor: Deleted Actor: AtmosphericFog
-[2017.11.30-05.29.35:103][954]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2017.11.30-05.29.37:172][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.30-05.29.37:498][235]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
-[2017.11.30-05.29.37:704][255]Cmd: DELETE
-[2017.11.30-05.29.37:704][255]Cmd: ACTOR DELETE
-[2017.11.30-05.29.37:704][255]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2017.11.30-05.29.37:715][255]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.11.30-05.29.39:206][432]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.11.30-05.29.41:167][659]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2017.11.30-05.29.41:178][659]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.30-05.29.50:758][732]LogActorFactory: Actor Factory created Plane
-[2017.11.30-05.29.53:398][ 33]LogActorFactory: Actor Factory created Plane
-[2017.11.30-05.29.54:914][208]LogActorFactory: Actor Factory created Plane
-[2017.11.30-05.30.41:033][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2017.11.30-05.30.41:437][540]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.30-05.31.00:938][ 36]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 C:/Users/Cameron/Desktop/tinker.obj)
-[2017.11.30-05.31.00:956][ 36]LogFbx: Loading FBX Scene from C:/Users/Cameron/Desktop/tinker.obj
-[2017.11.30-05.31.00:963][ 36]LogFbx: FBX Scene Loaded Succesfully
-[2017.11.30-05.31.00:965][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:965][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.00:965][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:965][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.00:965][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:965][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.00:965][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:965][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.00:965][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:965][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:965][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:966][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.00:966][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.00:966][ 36]LogFbx: =================================================
-[2017.11.30-05.31.00:966][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.00:966][ 36]LogFbx: 	Total Deformer Count -1999113344.
-[2017.11.30-05.31.00:966][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.00:966][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.00:966][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.02:575][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:575][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.02:575][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:575][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.02:575][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:575][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.02:575][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:575][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:575][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:576][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.02:576][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.02:576][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:576][ 36]LogFbx: Dumping Node START [group_0_-1499859] 
-[2017.11.30-05.31.02:576][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:576][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:576][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-1499859 (Type Mesh).
-[2017.11.30-05.31.02:576][ 36]LogFbx: Dumping Node END [group_0_-1499859]
-[2017.11.30-05.31.02:576][ 36]LogFbx: =================================================
-[2017.11.30-05.31.02:576][ 36]LogFbx: Dumping Node START [group_0_-687329] 
-[2017.11.30-05.31.02:576][ 36]LogFbx: 	Total Deformer Count 1932629776.
-[2017.11.30-05.31.02:576][ 36]LogFbx: 	Attribute () Type (4).
-[2017.11.30-05.31.02:576][ 36]LogFbx: 		[Node Attribute Child 1] group_0_-687329 (Type Mesh).
-[2017.11.30-05.31.02:576][ 36]LogFbx: Dumping Node END [group_0_-687329]
-[2017.11.30-05.31.02:578][ 36]LogLinker: Can't find file '/Game/StarterContent/Maps/group_0_-1499859Mat'
-[2017.11.30-05.31.02:579][ 36]LogLinker: Can't find file '/Game/StarterContent/Maps/group_0_-1499859Mat'
-[2017.11.30-05.31.02:619][ 36]LogMaterial: Missing cached shader map for material group_0_-1499859Mat, compiling. 
-[2017.11.30-05.31.02:703][ 36]LogStaticMesh: Building static mesh group_0_-1499859...
-[2017.11.30-05.31.02:844][ 36]LogStaticMesh: Built static mesh [0.14s] /Game/StarterContent/Maps/group_0_-1499859.group_0_-1499859
-[2017.11.30-05.31.02:979][ 36]LogStaticMesh: Warning: group_0_-1499859 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.30-05.31.02:984][ 36]LogLinker: Can't find file '/Game/StarterContent/Maps/group_0_-687329Mat'
-[2017.11.30-05.31.02:984][ 36]LogLinker: Can't find file '/Game/StarterContent/Maps/group_0_-687329Mat'
-[2017.11.30-05.31.02:989][ 36]LogMaterial: Missing cached shader map for material group_0_-687329Mat, compiling. 
-[2017.11.30-05.31.03:004][ 36]LogStaticMesh: Building static mesh group_0_-687329...
-[2017.11.30-05.31.03:010][ 36]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Maps/group_0_-687329.group_0_-687329
-[2017.11.30-05.31.04:317][ 36]LogAIModule: Creating AISystem for world Advanced_Lighting
-[2017.11.30-05.31.04:320][ 36]LogAIModule: Creating AISystem for world StarterMap
-[2017.11.30-05.31.05:542][ 36]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
-[2017.11.30-05.31.07:809][ 36]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.11.30-05.31.07:809][ 36]FBXImport: Warning: group_0_-1499859 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.30-05.31.39:344][455]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.30-05.31.47:893][366]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.30-05.31.47:967][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.11.30-05.31.47:967][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.30-05.31.47:968][366]PIE: New page: PIE session: Minimal_Default (Nov 29, 2017, 7:31:47 PM)
-[2017.11.30-05.31.47:968][366]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.11.30-05.31.47:970][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002084s)
-[2017.11.30-05.31.47:970][366]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.11.30-05.31.47:971][366]LogPlayLevel: PIE: World Init took: (0.000665s)
-[2017.11.30-05.31.47:971][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003046s)
-[2017.11.30-05.31.47:999][366]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.30-05.31.48:005][366]LogInit: FAudioDevice initialized.
-[2017.11.30-05.31.48:051][366]LogLoad: Game class is 'GameModeBase'
-[2017.11.30-05.31.48:053][366]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.11.30-00.31.48
-[2017.11.30-05.31.48:053][366]LogWorld: Bringing up level for play took: 0.001213
-[2017.11.30-05.31.48:081][366]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.11.30-05.31.48:082][366]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.409
-[2017.11.30-05.31.48:082][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.11.30-05.31.52:130][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.11.30-05.31.52:169][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.11.30-05.31.55:030][153]LogSavePackage: Save=33.31ms
-[2017.11.30-05.31.55:030][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Minimal_DefaultB92669344565E614CE76DCA571B71944.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap'
-[2017.11.30-05.31.55:033][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap
-[2017.11.30-05.31.55:057][153]LogFileHelpers: Saving map 'Minimal_Default' took 0.163
-[2017.11.30-05.31.55:063][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/tinker" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/tinker.uasset" SILENT=true
-[2017.11.30-05.31.55:100][153]LogSavePackage: Save=35.92ms
-[2017.11.30-05.31.55:100][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/tinkerFF93E0CD44DE3AF854334380190C351F.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/tinker.uasset'
-[2017.11.30-05.31.55:102][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/tinker.uasset
-[2017.11.30-05.31.55:171][153]LogSavePackage: Save=21.55ms
-[2017.11.30-05.31.55:171][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/group_0_-14998597C02243041E9AE03FF6E7583451B0386.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-1499859.uasset'
-[2017.11.30-05.31.55:174][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-1499859.uasset
-[2017.11.30-05.31.55:228][153]LogSavePackage: Save=29.34ms
-[2017.11.30-05.31.55:228][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/group_0_-1499859Mat6EEA2EDF40D4E1E1EB3D718A3245E95C.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-1499859Mat.uasset'
-[2017.11.30-05.31.55:230][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-1499859Mat.uasset
-[2017.11.30-05.31.55:264][153]LogSavePackage: Save=14.22ms
-[2017.11.30-05.31.55:264][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/group_0_-687329401BA5DD48EE22A1E451E0A1A9824DF3.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-687329.uasset'
-[2017.11.30-05.31.55:265][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-687329.uasset
-[2017.11.30-05.31.55:299][153]LogSavePackage: Save=14.92ms
-[2017.11.30-05.31.55:299][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/group_0_-687329Mat368B4F2A43FD7445049560AABD7A7BBB.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-687329Mat.uasset'
-[2017.11.30-05.31.55:301][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/group_0_-687329Mat.uasset
-[2017.11.30-05.31.55:349][153]LogSavePackage: Save=23.05ms
-[2017.11.30-05.31.55:349][153]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/FbxScene_tinkerCF96809F436B85DA4EE2CEB8383190D7.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/FbxScene_tinker.uasset'
-[2017.11.30-05.31.55:352][153]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/FbxScene_tinker.uasset
-[2017.11.30-05.32.18:658][224]LogMetaData: Removing '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' ref from Metadata '/Game/StarterContent/Maps/Minimal_Default.PackageMetaData'
-[2017.11.30-05.32.18:658][224]LogMetaData: Removing '/Game/StarterContent/Maps/PPOUTLINEMAP.SKEL_PPOUTLINEMAP_C' ref from Metadata '/Game/StarterContent/Maps/Minimal_Default.PackageMetaData'
-[2017.11.30-05.32.18:970][224]LogSavePackage: Save=88.13ms
-[2017.11.30-05.32.18:970][224]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAP9D403B414554237EE3761D93DB3D8CFE.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap'
-[2017.11.30-05.32.18:972][224]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap
-[2017.11.30-05.32.18:996][224]LogFileHelpers: Saving map 'PPOUTLINEMAP' took 0.234
-[2017.11.30-05.32.22:552][571]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
-[2017.11.30-05.32.29:076][307]Cmd: DELETE
-[2017.11.30-05.32.29:076][307]Cmd: ACTOR DELETE
-[2017.11.30-05.32.29:077][307]LogEditorActor: Deleted Actor: SkyLight
-[2017.11.30-05.32.29:096][307]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2017.11.30-05.32.39:550][439]LogEditorViewport: Clicking on Actor (LMB): FbxScene_tinker_C (FbxScene_tinker)
-[2017.11.30-05.32.40:631][560]LogSlate: Took 0.032263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.30-05.32.53:544][630]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.30-05.32.56:675][951]LogSavePackage: Save=60.07ms
-[2017.11.30-05.32.56:675][951]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAP967786BD4BFEC4A9464B618E01195382.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap'
-[2017.11.30-05.32.56:678][951]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap
-[2017.11.30-05.32.56:700][951]LogFileHelpers: Saving map 'PPOUTLINEMAP' took 0.191
-[2017.11.30-05.32.58:126][ 93]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.30-05.32.58:457][ 94]Cmd: QUIT_EDITOR
-[2017.11.30-05.32.59:751][ 94]LogExit: Preparing to exit.
-[2017.11.30-05.33.01:181][ 94]LogExit: Editor shut down
-[2017.11.30-05.33.01:186][ 94]LogExit: Transaction tracking system shut down
-[2017.11.30-05.33.02:802][ 94]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.30-05.33.02:803][ 94]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/' was aborted.
-[2017.11.30-05.33.02:803][ 94]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.30-05.33.02:803][ 94]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.30-05.33.02:803][ 94]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.30-05.33.08:974][ 94]LogExit: Object subsystem successfully closed.
-[2017.11.30-05.33.09:573][ 94]LogD3D11RHI: Shutdown
-[2017.11.30-05.33.09:573][ 94]LogD3D11RHI: CleanupD3DDevice
-[2017.11.30-05.33.09:796][ 94]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.30-05.33.12:187][ 94]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
-[2017.11.30-05.33.12:187][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
-[2017.11.30-05.33.12:215][ 94]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
-[2017.11.30-05.33.12:215][ 94]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
-[2017.11.30-05.33.12:318][ 94]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.11.30-05.33.12:318][ 94]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.11.30-05.33.12:341][ 94]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.11.30-05.33.12:370][ 94]LogDirectoryWatcher: A directory notification for 'D:/Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.30-05.33.12:444][ 94]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.11.30-05.33.12:444][ 94]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.11.30-05.33.12:444][ 94]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.11.30-05.33.12:460][ 94]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Collections/' was aborted.
-[2017.11.30-05.33.12:460][ 94]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Developers/Cameron/Collections/' was aborted.
-[2017.11.30-05.33.12:460][ 94]LogDirectoryWatcher: A directory notification for 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Collections/' was aborted.
-[2017.11.30-05.33.12:460][ 94]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.11.30-05.33.12:512][ 94]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.11.30-05.33.12:529][ 94]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.11.30-05.33.12:701][ 94]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.11.30-05.33.12:724][ 94]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.11.30-05.33.12:724][ 94]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.11.30-05.33.12:724][ 94]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.11.30-05.33.12:724][ 94]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.11.30-05.33.12:724][ 94]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.11.30-05.33.12:745][ 94]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.11.30-05.33.12:745][ 94]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.11.30-05.33.12:745][ 94]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.11.30-05.33.12:760][ 94]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.11.30-05.33.12:768][ 94]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.11.30-05.33.12:790][ 94]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.11.30-05.33.12:986][ 94]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.11.30-05.33.13:004][ 94]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.11.30-05.33.13:004][ 94]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.11.30-05.33.13:004][ 94]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.11.30-05.33.13:004][ 94]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.11.30-05.33.13:004][ 94]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.11.30-05.33.13:175][ 94]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.11.30-05.33.13:247][ 94]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.11.30-05.33.13:324][ 94]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.11.30-05.33.13:428][ 94]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.11.30-05.33.13:452][ 94]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.11.30-05.33.13:452][ 94]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.11.30-05.33.13:452][ 94]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.11.30-05.33.13:514][ 94]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.11.30-05.33.13:514][ 94]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.11.30-05.33.13:514][ 94]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.11.30-05.33.13:514][ 94]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.11.30-05.33.13:531][ 94]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.11.30-05.33.13:582][ 94]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.11.30-05.33.13:582][ 94]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.11.30-05.33.13:617][ 94]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.11.30-05.33.13:617][ 94]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.11.30-05.33.13:654][ 94]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.11.30-05.33.13:671][ 94]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.11.30-05.33.13:671][ 94]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.11.30-05.33.13:685][ 94]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.11.30-05.33.13:685][ 94]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.11.30-05.33.13:709][ 94]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.11.30-05.33.13:709][ 94]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.11.30-05.33.13:709][ 94]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.11.30-05.33.13:709][ 94]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.11.30-05.33.13:709][ 94]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.11.30-05.33.13:776][ 94]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.11.30-05.33.13:794][ 94]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.11.30-05.33.13:819][ 94]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.11.30-05.33.13:850][ 94]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.11.30-05.33.13:900][ 94]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.11.30-05.33.13:963][ 94]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.11.30-05.33.13:984][ 94]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.11.30-05.33.14:042][ 94]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.11.30-05.33.14:106][ 94]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.11.30-05.33.14:106][ 94]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.11.30-05.33.14:127][ 94]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.11.30-05.33.14:170][ 94]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.11.30-05.33.14:241][ 94]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.11.30-05.33.14:241][ 94]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.11.30-05.33.14:261][ 94]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.11.30-05.33.14:268][ 94]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.11.30-05.33.14:268][ 94]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.11.30-05.33.14:268][ 94]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.11.30-05.33.14:283][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.11.30-05.33.14:350][ 94]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.11.30-05.33.14:350][ 94]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.11.30-05.33.14:377][ 94]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.11.30-05.33.14:377][ 94]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.11.30-05.33.14:377][ 94]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.11.30-05.33.14:377][ 94]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.11.30-05.33.14:377][ 94]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.11.30-05.33.14:432][ 94]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.11.30-05.33.14:444][ 94]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.11.30-05.33.14:491][ 94]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.11.30-05.33.14:552][ 94]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.11.30-05.33.14:559][ 94]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.11.30-05.33.14:559][ 94]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.11.30-05.33.14:559][ 94]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.11.30-05.33.14:643][ 94]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.11.30-05.33.14:643][ 94]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.11.30-05.33.14:667][ 94]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.11.30-05.33.14:667][ 94]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.11.30-05.33.14:667][ 94]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.11.30-05.33.14:667][ 94]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.11.30-05.33.14:667][ 94]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.11.30-05.33.14:745][ 94]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.11.30-05.33.14:800][ 94]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.11.30-05.33.14:800][ 94]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.11.30-05.33.14:824][ 94]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.11.30-05.33.14:824][ 94]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.11.30-05.33.14:870][ 94]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.11.30-05.33.14:970][ 94]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.11.30-05.33.15:052][ 94]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.11.30-05.33.15:094][ 94]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.11.30-05.33.15:094][ 94]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.11.30-05.33.15:094][ 94]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.11.30-05.33.15:094][ 94]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.11.30-05.33.15:142][ 94]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.11.30-05.33.15:149][ 94]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.11.30-05.33.15:158][ 94]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.11.30-05.33.15:170][ 94]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.11.30-05.33.15:171][ 94]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.11.30-05.33.15:184][ 94]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.11.30-05.33.15:193][ 94]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.11.30-05.33.15:293][ 94]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.11.30-05.33.15:403][ 94]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.11.30-05.33.15:450][ 94]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.11.30-05.33.15:450][ 94]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.11.30-05.33.15:450][ 94]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.11.30-05.33.15:540][ 94]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.11.30-05.33.15:564][ 94]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.11.30-05.33.15:565][ 94]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.11.30-05.33.15:565][ 94]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.11.30-05.33.15:594][ 94]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.30-05.33.15:594][ 94]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.30-05.33.15:594][ 94]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.30-05.33.15:594][ 94]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.30-05.33.15:619][ 94]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.30-05.33.15:677][ 94]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.30-05.33.15:677][ 94]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.30-05.33.15:677][ 94]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.30-05.33.15:677][ 94]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.30-05.33.15:712][ 94]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.30-05.33.15:727][ 94]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.30-05.33.15:727][ 94]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.30-05.33.15:844][ 94]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.30-05.33.15:844][ 94]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.30-05.33.15:879][ 94]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.30-05.33.15:879][ 94]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.30-05.33.15:924][ 94]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.30-05.33.15:970][ 94]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.30-05.33.16:041][ 94]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.30-05.33.16:042][ 94]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.30-05.33.16:133][ 94]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.30-05.33.16:133][ 94]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.30-05.33.16:135][ 94]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.30-05.33.16:159][ 94]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.30-05.33.16:212][ 94]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.30-05.33.16:212][ 94]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.30-05.33.16:237][ 94]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.30-05.33.16:237][ 94]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.30-05.33.16:298][ 94]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.30-05.33.16:331][ 94]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.30-05.33.16:332][ 94]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.30-05.33.16:386][ 94]LogDerivedDataCache: Shutdown
-[2017.11.30-05.33.16:386][ 94]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.30-05.33.16:386][ 94]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.30-05.33.16:422][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.30-05.33.16:434][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.30-05.33.16:460][ 94]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.30-05.33.16:499][ 94]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.30-05.33.16:544][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.30-05.33.16:544][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.30-05.33.16:544][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.30-05.33.16:566][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.30-05.33.16:594][ 94]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.30-05.33.16:618][ 94]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.30-05.33.16:618][ 94]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.30-05.33.16:618][ 94]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.30-05.33.16:618][ 94]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.30-05.33.16:703][ 94]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.30-05.33.16:781][ 94]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.30-05.33.16:781][ 94]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.30-05.33.16:811][ 94]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BACDDCF04-42FA-65A6-97CC-FE8F52D3611B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=1a9fbdf547acc15498f53c9d52a86bdd%7Cd697d50e1bb4459db0bde9f23d712b49%7C1c18de53-6320-4932-a354-522ac18064de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.30-05.33.16:826][ 94]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.30-05.33.16:845][ 94]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.30-05.33.16:907][ 94]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.30-05.33.16:907][ 94]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.30-05.33.17:051][ 94]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.30-05.33.17:051][ 94]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.30-05.33.17:051][ 94]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.30-05.33.17:051][ 94]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.30-05.33.17:097][ 94]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.30-05.33.17:109][ 94]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.30-05.33.17:109][ 94]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.30-05.33.17:159][ 94]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.30-05.33.17:181][ 94]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.30-05.33.17:237][ 94]LogExit: Exiting.
-[2017.11.30-05.33.17:250][ 94]Log file closed, 11/30/17 00:33:17
+[2017.11.30-16.45.40:502][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-16.45.40:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.30-16.45.40:528][  0]LogInit: Computer: DESKTOP-352940E
+[2017.11.30-16.45.40:528][  0]LogInit: User: Cameron
+[2017.11.30-16.45.40:528][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.30-16.45.40:528][  0]LogInit: High frequency timer resolution =3.320323 MHz
+[2017.11.30-16.45.40:528][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.30-16.45.40:528][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.30-16.45.40:528][  0]LogMemory: Process Physical Memory: 276.34 MB used, 276.34 MB peak
+[2017.11.30-16.45.40:528][  0]LogMemory: Process Virtual Memory: 274.33 MB used, 274.33 MB peak
+[2017.11.30-16.45.40:528][  0]LogMemory: Physical Memory: 4940.07 MB used,  3195.95 MB free, 8136.02 MB total
+[2017.11.30-16.45.40:528][  0]LogMemory: Virtual Memory: 668.83 MB used,  3195.95 MB free, 134217728.00 MB total
+[2017.11.30-16.45.40:655][  0]LogInit: Using OS detected language (en-US).
+[2017.11.30-16.45.40:655][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.30-16.45.40:658][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.30-16.45.41:483][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.30-16.45.41:501][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.11.30-16.45.41:501][  0]LogD3D11RHI:       3053/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.11.30-16.45.41:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.30-16.45.41:503][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.30-16.45.41:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.30-16.45.41:509][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.30-16.45.41:509][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.30-16.45.41:509][  0]LogWindows: EnumDisplayDevices:
+[2017.11.30-16.45.41:510][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:1)
+[2017.11.30-16.45.41:510][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.11.30-16.45.41:510][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.30-16.45.41:510][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.30-16.45.41:511][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.30-16.45.41:511][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.11.30-16.45.41:511][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.30-16.45.41:511][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.11.30-16.45.41:511][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.11.30-16.45.41:511][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.11.30-16.45.41:511][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.30-16.45.41:569][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.30-16.45.41:581][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.30-16.45.41:582][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Intermediate/Shaders/WorkingDirectory/5076/).
+[2017.11.30-16.45.41:583][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cameron/AppData/Local/Temp/UnrealShaderWorkingDir/7B2F379C4B5D224B39C044941AAD5545/'.
+[2017.11.30-16.45.41:583][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.30-16.45.42:535][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.30-16.45.42:589][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.30-16.45.42:636][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.30-16.45.42:688][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.30-16.45.42:730][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.30-16.45.42:774][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.30-16.45.42:821][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.30-16.45.42:869][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.30-16.45.42:903][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.30-16.45.42:948][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.30-16.45.42:994][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.30-16.45.43:033][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.30-16.45.43:085][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.30-16.45.43:122][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.30-16.45.43:169][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.30-16.45.43:269][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.30-16.45.43:269][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.30-16.45.43:307][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.30-16.45.43:564][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.30-16.45.43:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.30-16.45.43:660][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.30-16.45.43:720][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.30-16.45.43:785][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.30-16.45.43:851][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.30-16.45.43:851][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.30-16.45.44:246][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.30-16.45.44:415][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.30-16.45.44:438][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.30-16.45.44:450][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cameron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.30-16.45.44:465][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.30-16.45.44:466][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.30-16.45.44:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-16.45.44:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.30-16.45.44:778][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.11.30-16.45.44:912][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.30-16.45.45:266][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.30-16.45.45:293][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.30-16.45.45:293][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.30-16.45.45:293][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.30-16.45.45:293][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.30-16.45.45:293][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.30-16.45.45:317][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.30-16.45.45:793][  0]LogNetVersion: PPOutlining , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1180408051)
+[2017.11.30-16.45.46:029][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.068345 seconds
+[2017.11.30-16.45.46:039][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.11.30-16.45.46:039][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
+[2017.11.30-16.45.46:039][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.30-16.45.46:080][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.30-16.45.48:427][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.30-16.45.48:464][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.30-16.45.48:982][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.30-16.45.49:322][  0]SourceControl: Source control is disabled
+[2017.11.30-16.45.49:322][  0]SourceControl: Source control is disabled
+[2017.11.30-16.45.49:362][  0]SourceControl: Source control is disabled
+[2017.11.30-16.45.49:397][  0]SourceControl: Source control is disabled
+[2017.11.30-16.45.49:844][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.30-16.45.50:035][  0]LogOcInput: OculusInput pre-init called
+[2017.11.30-16.45.50:238][  0]LogEngine: Initializing Engine...
+[2017.11.30-16.45.50:240][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.30-16.45.50:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.30-16.45.50:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.30-16.45.50:647][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.30-16.45.50:655][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-16.45.50:666][  0]LogInit: FAudioDevice initialized.
+[2017.11.30-16.45.50:764][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.30-16.45.50:791][  0]LogInit: Texture streaming: Enabled
+[2017.11.30-16.45.50:873][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.30-16.45.51:083][  0]LogInit: Transaction tracking system initialized
+[2017.11.30-16.45.51:340][  0]BlueprintLog: New page: Editor Load
+[2017.11.30-16.45.52:036][  0]LocalizationService: Localization service is disabled
+[2017.11.30-16.45.52:586][  0]LogConsoleResponse: Display: 
+[2017.11.30-16.45.52:795][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.30-16.45.52:795][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.30-16.45.52:796][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.30-16.45.53:562][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/' took 0.02s
+[2017.11.30-16.45.53:601][  0]SourceControl: Source control is disabled
+[2017.11.30-16.45.53:601][  0]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.30-16.45.53:602][  0]LogEditorServer: Warning: Can't find file 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.30-16.45.53:602][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.30-16.45.53:647][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.937ms to complete.
+[2017.11.30-16.45.53:647][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.045
+[2017.11.30-16.45.53:719][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.30-16.45.54:208][  0]LogCollectionManager: Loaded 0 collections in 0.000910 seconds
+[2017.11.30-16.45.54:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Collections/' took 0.01s
+[2017.11.30-16.45.54:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Developers/Cameron/Collections/' took 0.01s
+[2017.11.30-16.45.54:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/Collections/' took 0.01s
+[2017.11.30-16.45.54:357][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.30-16.45.54:394][  0]LogContentBrowser: Native class hierarchy populated in 0.0349 seconds. Added 2386 classes and 500 folders.
+[2017.11.30-16.45.54:486][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0121 seconds. Added 0 classes and 0 folders.
+[2017.11.30-16.45.55:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.30-16.45.55:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.30-16.45.56:721][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.30-16.45.56:722][  0]LogLoad: (Engine Initialization) Total time: 17.98 seconds
+[2017.11.30-16.45.56:722][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.30-16.45.56:722][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.30-16.45.56:777][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.30-16.45.56:778][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.30-16.45.56:780][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.30-16.45.56:851][  0]LogSlate: Took 0.031506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.30-16.45.57:374][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2017.11.30-16.45.57:387][  1]LogAssetRegistry: Asset discovery search completed in 12.6311 seconds
+[2017.11.30-16.45.57:390][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.30-16.45.57:390][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2017.11.30-16.46.01:427][270]LogSlate: Took 0.035813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-16.46.06:232][533]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:533).
+[2017.11.30-16.46.12:008][954]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-16.46.12:855][954]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-16.46.12:978][954]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.30-16.46.13:008][954]Cmd: MAP LOAD FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.30-16.46.13:008][954]LightingResults: New page: Lighting Build
+[2017.11.30-16.46.13:035][954]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2017.11.30-16.46.13:036][954]LoadErrors: New page: Loading map: PPOUTLINEMAP.umap
+[2017.11.30-16.46.13:036][954]MapCheck: New page: Map Check
+[2017.11.30-16.46.13:036][954]LightingResults: New page: Lighting Build
+[2017.11.30-16.46.13:197][954]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.30-16.46.13:267][954]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.30-16.46.13:321][954]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.982ms to complete.
+[2017.11.30-16.46.13:321][954]LogFileHelpers: Loading map 'PPOUTLINEMAP' took 0.315
+[2017.11.30-16.56.36:271][913]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-16.56.36:350][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-16.56.36:351][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-16.56.36:367][913]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 6:56:36 AM)
+[2017.11.30-16.56.36:367][913]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-16.56.36:401][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033704s)
+[2017.11.30-16.56.36:402][913]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-16.56.36:402][913]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2017.11.30-16.56.36:402][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.034912s)
+[2017.11.30-16.56.36:421][913]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-16.56.36:432][913]LogInit: FAudioDevice initialized.
+[2017.11.30-16.56.36:487][913]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-16.56.36:508][913]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-11.56.36
+[2017.11.30-16.56.36:536][913]LogWorld: Bringing up level for play took: 0.029632
+[2017.11.30-16.56.36:615][913]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.30-16.56.36:642][913]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP 1.037
+[2017.11.30-16.56.36:642][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-16.56.41:811][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-16.56.41:872][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-16.59.03:580][355]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-16.59.05:318][414]LogSlate: Took 0.038191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.30-16.59.08:158][558]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.11.30-17.08.20:306][140]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.30-17.09.48:345][668]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cameron\Documents\PostProcessingOutlining\PPOutlining\Content\StarterContent\Maps\cel_CLUT.png)
+[2017.11.30-17.09.48:363][668]LogTexture: Display: Building textures: cel_CLUT (BGRA8, 1X128)
+[2017.11.30-17.10.04:836][727]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.11.30-17.10.29:261][952]LogTexture: Display: Building textures: cel_CLUT (BGRA8, 1X128)
+[2017.11.30-17.11.38:854][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.11.38:923][770]LogSavePackage: Save=64.24ms
+[2017.11.30-17.11.38:923][770]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUT0AF0A3434E6BAEFFE5F35DBD6AFC3626.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.11.38:933][770]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.11.52:283][357]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0024 seconds. Added 1 classes and 0 folders.
+[2017.11.30-17.11.52:297][357]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.11.52:614][357]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.11.52:636][357]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.11.52:807][357]LogSlate: Took 0.080161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.30-17.12.02:201][701]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.30-17.12.02:201][701]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.12.02:202][701]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.12.02:405][705]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.02:430][705]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.04:059][769]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.12.04:059][769]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.12.04:059][769]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.12.20:043][781]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.20:049][781]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.20:757][804]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.12.20:758][804]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.12.20:758][804]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.12.42:339][ 11]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.43:853][ 68]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.12.43:853][ 68]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.12.43:853][ 68]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.12.49:882][406]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.12.50:978][448]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.12.50:978][448]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.12.50:978][448]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.12:913][701]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.14:444][760]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.14:444][760]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.14:444][760]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.17:739][872]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.18:618][906]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.18:618][906]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.18:618][906]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.38:236][903]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.38:970][928]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.38:970][928]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.38:970][928]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.48:695][385]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.49:667][423]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.49:667][423]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.49:667][423]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.54:443][658]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.55:351][693]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.55:351][693]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.55:351][693]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.13.58:986][822]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.13.59:770][850]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.13.59:770][850]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.13.59:770][850]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.14.01:734][921]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.14.02:675][957]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.14.02:675][957]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.14.02:675][957]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.14.38:461][661]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.14.40:031][718]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.14.40:032][718]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.14.40:032][718]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.14.41:677][768]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.14.42:648][807]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.14.42:648][807]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.14.42:648][807]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.14.43:894][855]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.14.44:916][896]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.14.44:916][896]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.14.44:916][896]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.15.07:389][927]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.15.07:395][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.15.09:122][989]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.15.09:122][989]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.15.09:122][989]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.15.46:856][372]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.15.46:863][372]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.15.48:438][431]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.15.48:438][431]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.15.48:439][431]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.15.51:143][505]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.15.51:156][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.15.51:926][529]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.11.30-17.15.51:926][529]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.15.51:926][529]MaterialEditorStats: Texture samplers: 0/16
+[2017.11.30-17.15.54:761][627]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.15.54:770][627]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.15.55:929][668]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.15.55:929][668]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.15.55:929][668]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.16.11:284][664]LogMaterialEditor: Applying material cel_shade
+[2017.11.30-17.16.11:819][664]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.16.11:910][664]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.16.11:927][664]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.16.11:957][664]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.30-17.17.01:500][651]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.17.09:503][ 57]LogActorFactory: Actor Factory created Sphere
+[2017.11.30-17.17.10:608][ 90]LogActorFactory: Actor Factory created Sphere
+[2017.11.30-17.17.17:017][386]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.17.55:222][276]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.17.55:241][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.17.55:242][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.17.55:242][276]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:17:55 AM)
+[2017.11.30-17.17.55:242][276]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.17.55:246][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2017.11.30-17.17.55:247][276]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.17.55:247][276]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2017.11.30-17.17.55:247][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.005222s)
+[2017.11.30-17.17.55:269][276]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.17.55:282][276]LogInit: FAudioDevice initialized.
+[2017.11.30-17.17.55:323][276]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.17.55:325][276]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.17.55
+[2017.11.30-17.17.55:325][276]LogWorld: Bringing up level for play took: 0.001995
+[2017.11.30-17.17.55:327][276]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP -0.278
+[2017.11.30-17.17.55:327][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.18.08:658][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.18.08:730][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.18.12:831][200]AssetReimport: New page: Outstanding source content changes 7:18:12 AM
+[2017.11.30-17.18.12:908][201]LogEditorFactories: Performing atomic reimport of [C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png]
+[2017.11.30-17.18.12:908][201]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png)
+[2017.11.30-17.18.12:928][201]LogEditorFactories: -- imported successfully
+[2017.11.30-17.18.13:128][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.18.13:146][202]LogSavePackage: Save=12.07ms
+[2017.11.30-17.18.13:147][202]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUT98F6C7884592CAE04AFCC9847D679A24.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.18.13:149][202]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.18.16:195][332]AssetReimport: Reimported asset cel_CLUT from C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png.
+[2017.11.30-17.19.09:326][124]Cmd: DELETE
+[2017.11.30-17.19.09:326][124]Cmd: ACTOR DELETE
+[2017.11.30-17.19.09:409][124]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.11.30-17.19.09:429][124]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.30-17.19.11:673][264]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.30-17.19.34:521][416]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.19.34:544][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.19.34:544][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.19.34:545][416]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:19:34 AM)
+[2017.11.30-17.19.34:545][416]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.19.34:549][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004079s)
+[2017.11.30-17.19.34:550][416]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.19.34:551][416]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2017.11.30-17.19.34:551][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.006243s)
+[2017.11.30-17.19.34:576][416]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.19.34:595][416]LogInit: FAudioDevice initialized.
+[2017.11.30-17.19.34:636][416]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.19.34:640][416]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.19.34
+[2017.11.30-17.19.34:640][416]LogWorld: Bringing up level for play took: 0.003003
+[2017.11.30-17.19.34:642][416]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP 1.038
+[2017.11.30-17.19.34:643][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.19.39:177][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.19.39:239][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.19.53:270][857]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.30-17.20.09:949][692]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.20.09:975][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.20.09:975][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.20.09:975][692]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:20:09 AM)
+[2017.11.30-17.20.09:975][692]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.20.09:978][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002881s)
+[2017.11.30-17.20.09:979][692]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.20.09:980][692]LogPlayLevel: PIE: World Init took: (0.001535s)
+[2017.11.30-17.20.09:980][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.004866s)
+[2017.11.30-17.20.09:998][692]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.20.10:008][692]LogInit: FAudioDevice initialized.
+[2017.11.30-17.20.10:050][692]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.20.10:054][692]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.20.10
+[2017.11.30-17.20.10:054][692]LogWorld: Bringing up level for play took: 0.003043
+[2017.11.30-17.20.10:056][692]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP 0.451
+[2017.11.30-17.20.10:056][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.20.18:380][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.20.18:456][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.20.44:537][700]LogSavePackage: Save=84.95ms
+[2017.11.30-17.20.44:537][700]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAP_Auto1731BC1734A17CC84B0ECFE842C5E8BFF.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto1.umap'
+[2017.11.30-17.20.44:539][700]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto1.umap
+[2017.11.30-17.20.44:552][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/PPOUTLINEMAP' took 0.127
+[2017.11.30-17.20.44:552][700]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2017.11.30-17.20.44:587][700]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Maps/cel_shade] ([1] browsable assets)...
+[2017.11.30-17.20.44:603][700]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Maps/cel_shade.cel_shade]
+[2017.11.30-17.20.44:604][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/cel_shade]
+[2017.11.30-17.20.44:627][700]LogSavePackage: Save=21.00ms
+[2017.11.30-17.20.44:627][700]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_shade_Auto1A891881E4CDAE1C4294C2F99B9900763.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/cel_shade_Auto1.uasset'
+[2017.11.30-17.20.44:628][700]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/cel_shade_Auto1.uasset
+[2017.11.30-17.20.44:628][700]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.11.30-17.20.45:142][720]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.45:265][720]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.45:272][720]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.45:304][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.20.47:353][798]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.20.47:353][798]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.20.47:353][798]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.20.55:711][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.55:717][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.57:981][183]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.20.58:931][219]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.20.58:931][219]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.20.58:931][219]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.21.12:409][171]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.21.13:444][209]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.21.13:444][209]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.21.13:444][209]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.21.16:106][302]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.21.17:047][339]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.21.17:047][339]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.21.17:047][339]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.21.36:317][108]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.21.36:328][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.21.37:213][141]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.30-17.21.37:214][141]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.21.37:214][141]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.30-17.21.43:586][380]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.21.44:646][422]MaterialEditorStats: Base pass shader without light map: 60 instructions
+[2017.11.30-17.21.44:646][422]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.21.44:646][422]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.30-17.21.45:932][475]LogMaterialEditor: Applying material cel_shade
+[2017.11.30-17.21.46:459][475]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.30-17.21.46:536][475]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.21.46:554][475]LogMaterial: Missing cached shader map for material cel_shade, compiling. 
+[2017.11.30-17.21.46:590][475]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.11.30-17.21.47:452][507]LogMaterialEditor: Saving and Compiling material cel_shade
+[2017.11.30-17.21.48:943][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_shade" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset" SILENT=true
+[2017.11.30-17.21.48:963][507]LogSavePackage: Save=17.76ms
+[2017.11.30-17.21.48:963][507]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_shade8A078BD7426742C19A792EA217A51985.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset'
+[2017.11.30-17.21.48:972][507]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset
+[2017.11.30-17.21.48:996][507]MaterialEditorStats: Base pass shader without light map: 60 instructions
+[2017.11.30-17.21.48:997][507]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.21.48:997][507]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-17.22.05:721][325]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2017.11.30-17.22.07:920][434]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.30-17.22.10:040][547]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight)
+[2017.11.30-17.22.13:832][716]Cmd: DELETE
+[2017.11.30-17.22.13:832][716]Cmd: ACTOR DELETE
+[2017.11.30-17.22.13:832][716]LogEditorActor: Deleted Actor: PointLight
+[2017.11.30-17.22.13:845][716]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.30-17.22.33:048][762]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.22.33:064][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.22.33:064][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.22.33:065][762]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:22:33 AM)
+[2017.11.30-17.22.33:065][762]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.22.33:068][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002874s)
+[2017.11.30-17.22.33:069][762]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.22.33:069][762]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2017.11.30-17.22.33:069][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.004384s)
+[2017.11.30-17.22.33:101][762]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.22.33:111][762]LogInit: FAudioDevice initialized.
+[2017.11.30-17.22.33:155][762]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.22.33:157][762]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.22.33
+[2017.11.30-17.22.33:157][762]LogWorld: Bringing up level for play took: 0.001863
+[2017.11.30-17.22.33:159][762]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP -0.445
+[2017.11.30-17.22.33:160][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.22.38:860][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.22.38:916][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.24.20:036][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.24.20:062][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.24.20:062][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.24.20:062][ 96]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:24:20 AM)
+[2017.11.30-17.24.20:063][ 96]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.24.20:064][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002215s)
+[2017.11.30-17.24.20:065][ 96]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.24.20:066][ 96]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2017.11.30-17.24.20:066][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.003302s)
+[2017.11.30-17.24.20:086][ 96]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.24.20:099][ 96]LogInit: FAudioDevice initialized.
+[2017.11.30-17.24.20:145][ 96]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.24.20:148][ 96]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.24.20
+[2017.11.30-17.24.20:148][ 96]LogWorld: Bringing up level for play took: 0.002617
+[2017.11.30-17.24.20:151][ 96]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP 0.546
+[2017.11.30-17.24.20:152][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.24.30:047][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.24.30:103][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.24.32:015][789]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.30-17.24.32:151][789]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.30-17.24.32:160][789]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.30-17.24.32:199][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.24.33:875][850]MaterialEditorStats: Base pass shader without light map: 60 instructions
+[2017.11.30-17.24.33:875][850]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.24.33:875][850]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.30-17.25.49:751][955]LogMaterialEditor: Saving and Compiling material cel_shade
+[2017.11.30-17.25.49:794][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_shade" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset" SILENT=true
+[2017.11.30-17.25.49:817][955]LogSavePackage: Save=10.01ms
+[2017.11.30-17.25.49:817][955]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_shade95BFB3F840A66171A5AB32B4FEA16AD9.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset'
+[2017.11.30-17.25.49:818][955]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_shade.uasset
+[2017.11.30-17.26.10:225][843]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.26.10:251][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.26.10:251][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.26.10:251][843]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:26:10 AM)
+[2017.11.30-17.26.10:251][843]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.26.10:254][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002450s)
+[2017.11.30-17.26.10:254][843]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.26.10:255][843]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2017.11.30-17.26.10:255][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.003746s)
+[2017.11.30-17.26.10:281][843]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.26.10:293][843]LogInit: FAudioDevice initialized.
+[2017.11.30-17.26.10:333][843]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.26.10:339][843]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.26.10
+[2017.11.30-17.26.10:340][843]LogWorld: Bringing up level for play took: 0.006190
+[2017.11.30-17.26.10:344][843]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP 0.739
+[2017.11.30-17.26.10:345][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.26.15:623][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.26.15:684][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.26.25:919][636]LogActorFactory: Actor Factory created Cylinder
+[2017.11.30-17.26.27:694][703]LogActorFactory: Actor Factory created Cylinder
+[2017.11.30-17.27.34:137][843]AssetReimport: New page: Outstanding source content changes 7:27:34 AM
+[2017.11.30-17.27.34:138][843]LogEditorFactories: Performing atomic reimport of [C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png]
+[2017.11.30-17.27.34:138][843]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png)
+[2017.11.30-17.27.34:145][843]LogEditorFactories: -- imported successfully
+[2017.11.30-17.27.34:237][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.27.34:252][844]LogSavePackage: Save=9.06ms
+[2017.11.30-17.27.34:252][844]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUT9E6F5F854EB3C83FE04A8FB7D093A728.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.27.34:255][844]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.27.37:298][988]AssetReimport: Reimported asset cel_CLUT from C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png.
+[2017.11.30-17.27.50:745][653]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.11.30-17.27.50:881][653]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.11.30-17.27.50:891][653]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.11.30-17.27.50:927][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
+[2017.11.30-17.27.50:933][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
+[2017.11.30-17.27.50:938][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
+[2017.11.30-17.27.50:943][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
+[2017.11.30-17.27.50:952][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.30-17.27.50:959][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2017.11.30-17.27.50:969][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.11.30-17.27.50:973][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.11.30-17.27.50:979][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-17.27.50:984][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.11.30-17.27.50:989][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.27.55:391][812]MaterialEditorStats: Base pass shader without light map: 84 instructions
+[2017.11.30-17.27.55:391][812]MaterialEditorStats: Vertex shader: 30 instructions
+[2017.11.30-17.27.55:391][812]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.30-17.27.55:391][812]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2017.11.30-17.28.31:048][902]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.30-17.31.06:779][934]LogSavePackage: Save=62.97ms
+[2017.11.30-17.31.06:779][934]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAP_Auto283361C0B4580F28D0E8A238B3B5B34DC.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto2.umap'
+[2017.11.30-17.31.06:780][934]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto2.umap
+[2017.11.30-17.31.06:782][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/PPOUTLINEMAP' took 0.089
+[2017.11.30-17.31.06:782][934]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2017.11.30-17.32.30:539][560]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.32.33:958][718]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.30-17.35.00:426][397]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.30-17.35.00:567][397]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.30-17.35.00:579][397]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.11.30-17.35.00:613][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-17.35.02:547][467]MaterialEditorStats: Base pass shader without light map: 60 instructions
+[2017.11.30-17.35.02:547][467]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.35.02:547][467]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.30-17.36.03:828][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.36.05:178][350]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.11.30-17.36.20:039][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.11.30-17.36.33:335][768]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.36.33:487][768]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.36.33:508][768]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.36.33:551][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.30-17.36.42:412][109]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.30-17.36.42:412][109]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-17.36.42:412][109]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.30-17.36.58:098][ 19]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.37.00:049][ 93]LogMaterialEditor: Applying material BasicShapeMaterial
+[2017.11.30-17.37.00:624][ 93]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.37.00:721][ 93]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.37.00:808][ 93]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.30-17.37.00:918][ 93]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.30-17.37.03:325][ 93]TextureStreamingBuild: Display: Compiling optional shaders took 2.445 seconds.
+[2017.11.30-17.37.09:546][351]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.11.30-17.37.17:855][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.11.30-17.39.02:667][144]LogActorFactory: Actor Factory created Plane
+[2017.11.30-17.39.03:462][179]LogActorFactory: Actor Factory created Plane
+[2017.11.30-17.39.53:551][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2017.11.30-17.40.09:081][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.30-17.40.43:908][108]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.30-17.41.47:244][967]LogSavePackage: Save=85.89ms
+[2017.11.30-17.41.47:244][967]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAP_Auto3C599B22B465D97E662751FA93803951A.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto3.umap'
+[2017.11.30-17.41.47:246][967]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Game/StarterContent/Maps/PPOUTLINEMAP_Auto3.umap
+[2017.11.30-17.41.47:250][967]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/PPOUTLINEMAP' took 0.126
+[2017.11.30-17.41.47:250][967]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2017.11.30-17.41.47:278][967]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/BasicShapeMaterial] ([1] browsable assets)...
+[2017.11.30-17.41.47:298][967]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial]
+[2017.11.30-17.41.47:298][967]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/BasicShapeMaterial]
+[2017.11.30-17.41.47:330][967]LogSavePackage: Save=20.19ms
+[2017.11.30-17.41.47:330][967]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/BasicShapeMaterial_Auto355261BDF4CE5B861F977409E3CCB3939.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto3.uasset'
+[2017.11.30-17.41.47:332][967]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto3.uasset
+[2017.11.30-17.41.47:332][967]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.11.30-17.42.01:076][  9]AssetReimport: New page: Outstanding source content changes 7:42:01 AM
+[2017.11.30-17.42.01:078][  9]LogEditorFactories: Performing atomic reimport of [C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png]
+[2017.11.30-17.42.01:078][  9]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png)
+[2017.11.30-17.42.01:086][  9]LogEditorFactories: -- imported successfully
+[2017.11.30-17.42.01:299][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.42.01:316][ 10]LogSavePackage: Save=10.82ms
+[2017.11.30-17.42.01:317][ 10]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUTC1FE7F1744580BD0F2AC239BD799013C.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.42.01:319][ 10]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.42.04:358][112]AssetReimport: Reimported asset cel_CLUT from C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.png.
+[2017.11.30-17.42.07:088][234]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.30-17.42.07:112][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.42.07:112][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.30-17.42.07:113][234]PIE: New page: PIE session: PPOUTLINEMAP (Nov 30, 2017, 7:42:07 AM)
+[2017.11.30-17.42.07:113][234]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP
+[2017.11.30-17.42.07:117][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003395s)
+[2017.11.30-17.42.07:117][234]LogAIModule: Creating AISystem for world PPOUTLINEMAP
+[2017.11.30-17.42.07:118][234]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2017.11.30-17.42.07:118][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP to /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP (0.004836s)
+[2017.11.30-17.42.07:137][234]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.30-17.42.07:148][234]LogInit: FAudioDevice initialized.
+[2017.11.30-17.42.07:191][234]LogLoad: Game class is 'GameModeBase'
+[2017.11.30-17.42.07:195][234]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP.PPOUTLINEMAP up for play (max tick rate 0) at 2017.11.30-12.42.07
+[2017.11.30-17.42.07:195][234]LogWorld: Bringing up level for play took: 0.003045
+[2017.11.30-17.42.07:197][234]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_PPOUTLINEMAP -0.408
+[2017.11.30-17.42.07:198][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.42.13:837][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.42.13:915][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP' with GeneratedClass '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP_C' with ClassGeneratedBy '/Game/StarterContent/Maps/PPOUTLINEMAP.PPOUTLINEMAP:PersistentLevel.PPOUTLINEMAP'
+[2017.11.30-17.42.31:006][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.42.31:025][388]LogSavePackage: Save=11.72ms
+[2017.11.30-17.42.31:025][388]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUTF4DB41024ECA472B07953C99E81B7B2A.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.42.31:029][388]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.42.48:591][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/cel_CLUT" FILE="C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset" SILENT=true
+[2017.11.30-17.42.48:610][160]LogSavePackage: Save=11.91ms
+[2017.11.30-17.42.48:610][160]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/cel_CLUT1B64DFCB4154C158FD97129730650EAE.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset'
+[2017.11.30-17.42.48:614][160]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/cel_CLUT.uasset
+[2017.11.30-17.43.22:367][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.44.38:920][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.11.30-17.44.42:608][ 74]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.11.30-17.45.25:815][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.45.27:431][298]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.30-17.45.51:738][ 45]LogSavePackage: Save=82.76ms
+[2017.11.30-17.45.51:738][ 45]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/PPOUTLINEMAPDC73F16A49454DF138CD8FBEFF6CA27C.tmp' to 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap'
+[2017.11.30-17.45.51:748][ 45]LogSavePackage: Display: Finished SavePackage C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Content/StarterContent/Maps/PPOUTLINEMAP.umap
+[2017.11.30-17.45.51:797][ 45]LogFileHelpers: Saving map 'PPOUTLINEMAP' took 0.222
+[2017.11.30-17.45.51:801][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2017.11.30-17.45.51:821][ 45]LogSavePackage: Save=12.14ms
+[2017.11.30-17.45.51:822][ 45]LogSavePackage: Moving 'C:/Users/Cameron/Documents/PostProcessingOutlining/PPOutlining/Saved/BasicShapeMaterial128E9DB142B1A94CD9F33B98B07ECC20.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2017.11.30-17.45.51:830][ 45]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
